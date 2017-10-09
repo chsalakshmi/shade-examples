@@ -38,7 +38,15 @@ for instance in instances:
     print instance
 
 
+# get the information about volumes
+#volumes = conn.list_volumes()
+#for volume in volumes:
+#    print "Displaying the volume information"
+#    print volume
 
 
-
-
+# get the security groups information
+groups = conn.list_security_groups()
+for security_group in groups:
+    print "listing the security group information"
+    print security_group
