@@ -1,0 +1,8 @@
+clouds:
+ mordred:
+   region_name: RegionOne
+   auth:
+     username: 'lakshmi'
+     password: 'lakshmi'
+     project_name: 'openstack-dev'
+     auth_url: 'http://10.1.4.205:5000/'
